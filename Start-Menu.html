@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Menu</title>
+    <style>
+        body {
+            background-color: #2e2e2e;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .start-menu {
+            background-color: #1a1a1a;
+            border: 1px solid #555;
+            border-radius: 5px;
+            padding: 10px;
+            width: 200px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+        .start-menu h2 {
+            margin: 0;
+            padding: 10px;
+            background-color: #007BFF;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .menu-item {
+            padding: 10px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .menu-item:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="start-menu">
+        <h2>Start Menu</h2>
+        <div class="menu-item" onclick="alert('You clicked Item 1!')">Item 1</div>
+        <div class="menu-item" onclick="alert('You clicked Item 2!')">Item 2</div>
+        <div class="menu-item" onclick="alert('You clicked Item 3!')">Item 3</div>
+        <div class="menu-item" onclick="alert('You clicked Item 4!')">Item 4</div>
+        <div class="menu-item" onclick="alert('You clicked Item 5!')">Item 5</div>
+    </div>
+
+</body>
+</html>
